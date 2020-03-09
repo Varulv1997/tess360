@@ -10,7 +10,7 @@ img.emoji {
 	background: none !important;
 	padding: 0 !important;
 }
-.slider-title {font-size:70px;}
+.slider-title {font-size:57px;line-height: 84px;}
 
 body, .site, .mask::after, .mask::before { background-color: #ffffff; }
 .site-header { background-color: #ffffff; }
