@@ -60,7 +60,7 @@ a:hover { color: #2c75e2; }
 .content-body-inner { padding-top: 0px;padding-right: 0px;padding-bottom: 50px;padding-left: 0px; }
 .content > .vc_row > .row-inner, .content > .vc_section > .vc_row > .row-inner { width: 1200px;margin: 0 auto; }
 .site-header .header-brand { margin-top: 20px;margin-right: 0px;margin-bottom: 20px;margin-left: 0px; }
-.site-header .site-header-inner, .site-header .extras { height: 122px; }
+.site-header .site-header-inner, .site-header .extras { height: 100px; }
 .site-header .off-canvas-toggle, .site-header .navigator .menu > li > a, .site-header .menu-extras > li > a { padding-top: 20px;padding-right: 0px;padding-bottom: 20px;padding-left: 0px; }
 .site-header-sticky .header-brand { margin-top: 20px;margin-right: 0px;margin-bottom: 20px;margin-left: 0px; }
 .site-header-sticky .site-header-inner, .site-header-sticky .extras { height: 90px; }
