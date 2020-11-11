@@ -3,7 +3,6 @@ if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){return}
 images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
 if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="assets\plugins\tess\assets\js\lazyload\12.0\lazyload.min.js"></script>	<script src="assets\cache\min\1\b1dc3f8ccfe1d26d6d22e23e6a988720.js" data-minify="1" defer=""></script><script>
             wp_VIDEO_LIGHTBOX_VERSION="1.8.8";
-            wp_VID_LIGHTBOX_URL="https://live.linethemes.com/wp/assets/plugins/wp-video-lightbox";
                         function wpvl_paramReplace(name, string, value) {
                 // Find the param with regex
                 // Grab the first character in the returned string (should be ? or &)
