@@ -441,7 +441,7 @@ ImagesLoaded.prototype.addElementImages = function( elem ) {
   }
 
   // find children
-  // no non-element nodes, #143
+  
   var nodeType = elem.nodeType;
   if ( !nodeType || !elementNodeTypes[ nodeType ] ) {
     return;
@@ -574,7 +574,7 @@ LoadingImage.prototype.check = function() {
   this.proxyImage = new Image();
   this.proxyImage.addEventListener( 'load', this );
   this.proxyImage.addEventListener( 'error', this );
-  // bind to image as well for Firefox. #191
+  
   this.img.addEventListener( 'load', this );
   this.img.addEventListener( 'error', this );
   this.proxyImage.src = this.img.src;
@@ -582,7 +582,7 @@ LoadingImage.prototype.check = function() {
 
 LoadingImage.prototype.getIsImageComplete = function() {
   // check for non-zero, non-undefined naturalWidth
-  // fixes Safari+InfiniteScroll+Masonry bug infinite-scroll#671
+  
   return this.img.complete && this.img.naturalWidth;
 };
 
@@ -1070,7 +1070,7 @@ function setup() {
   var body = document.body || document.documentElement;
   body.appendChild( div );
   var style = getStyle( div );
-  // round value for browser zoom. desandro/masonry#928
+  
   isBoxSizeOuter = Math.round( getStyleSize( style.width ) ) == 200;
   getSize.isBoxSizeOuter = isBoxSizeOuter;
 
@@ -1383,7 +1383,7 @@ utils.debounceMethod = function( _class, methodName, threshold ) {
 utils.docReady = function( callback ) {
   var readyState = document.readyState;
   if ( readyState == 'complete' || readyState == 'interactive' ) {
-    // do async to allow for other scripts to run. metafizzy/flickity#441
+    
     setTimeout( callback );
   } else {
     document.addEventListener( 'DOMContentLoaded', callback );
@@ -3010,7 +3010,7 @@ var _destroy = proto.destroy;
 proto.destroy = function() {
   // call super
   _destroy.apply( this, arguments );
-  // reset display, #741
+  
   this.css({
     display: ''
   });
@@ -3342,7 +3342,7 @@ return Item;
     return Math.max.apply( Math, groupColYs );
   };
 
-  // get column position based on horizontal index. #873
+  
   proto._getHorizontalColPosition = function( colSpan, item ) {
     var col = this.horizontalColIndex % this.cols;
     var isOver = colSpan > 1 && col + colSpan > this.cols;
@@ -3368,7 +3368,7 @@ return Item;
     var firstCol = Math.floor( firstX / this.columnWidth );
     firstCol = Math.max( 0, firstCol );
     var lastCol = Math.floor( lastX / this.columnWidth );
-    // lastCol should not go over if multiple of columnWidth #425
+    
     lastCol -= lastX % this.columnWidth ? 0 : 1;
     lastCol = Math.min( this.cols - 1, lastCol );
     // set colYs to bottom of the stamp
@@ -4772,7 +4772,7 @@ return Item;
 
 // ----- Rect ----- //
 
-// allow for pixel rounding errors IE8-IE11 & Firefox; #227
+
 Rect.prototype.canFit = function( rect ) {
   return this.width >= rect.width - 1 && this.height >= rect.height - 1;
 };
@@ -4924,7 +4924,7 @@ proto._setRectSize = function( elem, rect ) {
   var w = size.outerWidth;
   var h = size.outerHeight;
   // size for columnWidth and rowHeight, if available
-  // only check if size is non-zero, #177
+  
   if ( w || h ) {
     w = this._applyGridGutter( w, this.columnWidth );
     h = this._applyGridGutter( h, this.rowHeight );
@@ -5068,7 +5068,7 @@ proto._bindFitEvents = function( item ) {
 // debounced, layout on resize
 proto.resize = function() {
   // don't trigger if size did not change
-  // or if resize was unbound. See #285, outlayer#9
+  
   if ( !this.isResizeBound || !this.needsResizeLayout() ) {
     return;
   }
@@ -5762,7 +5762,7 @@ function setup() {
   var body = document.body || document.documentElement;
   body.appendChild( div );
   var style = getStyle( div );
-  // round value for browser zoom. desandro/masonry#928
+  
   isBoxSizeOuter = Math.round( getStyleSize( style.width ) ) == 200;
   getSize.isBoxSizeOuter = isBoxSizeOuter;
 
@@ -6188,7 +6188,7 @@ utils.debounceMethod = function( _class, methodName, threshold ) {
 utils.docReady = function( callback ) {
   var readyState = document.readyState;
   if ( readyState == 'complete' || readyState == 'interactive' ) {
-    // do async to allow for other scripts to run. metafizzy/flickity#441
+    
     setTimeout( callback );
   } else {
     document.addEventListener( 'DOMContentLoaded', callback );
@@ -8281,7 +8281,7 @@ return Item;
 
 // ----- Rect ----- //
 
-// allow for pixel rounding errors IE8-IE11 & Firefox; #227
+
 Rect.prototype.canFit = function( rect ) {
   return this.width >= rect.width - 1 && this.height >= rect.height - 1;
 };
@@ -8433,7 +8433,7 @@ proto._setRectSize = function( elem, rect ) {
   var w = size.outerWidth;
   var h = size.outerHeight;
   // size for columnWidth and rowHeight, if available
-  // only check if size is non-zero, #177
+  
   if ( w || h ) {
     w = this._applyGridGutter( w, this.columnWidth );
     h = this._applyGridGutter( h, this.rowHeight );
@@ -8577,7 +8577,7 @@ proto._bindFitEvents = function( item ) {
 // debounced, layout on resize
 proto.resize = function() {
   // don't trigger if size did not change
-  // or if resize was unbound. See #285, outlayer#9
+  
   if ( !this.isResizeBound || !this.needsResizeLayout() ) {
     return;
   }
