@@ -4,8 +4,8 @@ width="64" height="64">
   <title>Computer Network</title>
   <desc>A line styled icon from Orion Icon Library.</desc>
   <path data-name="layer2"
-  fill="none" stroke="#28759d" stroke-linecap="round" stroke-linejoin="round"
+  fill="none" stroke="#032a5f" stroke-linecap="round" stroke-linejoin="round"
   stroke-width="1" d="M26 52H4V36h22v16zM4 52l-2 4v2h26v-2l-2-4"></path>
-  <path data-name="layer1" fill="none" stroke="#24ccfd" stroke-linecap="round"
+  <path data-name="layer1" fill="none" stroke="#032a5f" stroke-linecap="round"
   stroke-linejoin="round" stroke-width="1" d="M43 22H21V6h22v16zm-22 0l-2 4v2h26v-2l-2-4m17 30H38V36h22v16zm-22 0l-2 4v2h26v-2l-2-4"></path>
 </svg>

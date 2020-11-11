@@ -15,13 +15,13 @@ width="256" height="256">
   <path stroke-width="1" stroke-miterlimit="10" stroke="#8d8ea3"
   fill="none" d="M37.616 47.78l1.39 1.393a4 4 0 0 1-5.653 5.657l-1.39-1.394M8.45 32.007L2 25.556 18.021 9.531s2.132 2.482 3.924 2.482c2.174 0 2.706-.706 4-2 2.124-2.126 5.32-2.063 8 .613"
   data-name="layer2" stroke-linejoin="round" stroke-linecap="round"></path>
-  <path stroke-width="1" stroke-miterlimit="10" stroke="#0e2b5c"
+  <path stroke-width="1" stroke-miterlimit="10" stroke="#032a5f"
   fill="none" d="M15.6 36.163a4 4 0 1 0-5.653-5.655l-2.825 2.827a4 4 0 0 0 5.655 5.656z"
   data-name="layer1" stroke-linejoin="round" stroke-linecap="round"></path>
-  <path stroke-width="1" stroke-miterlimit="10" stroke="#0e2b5c"
+  <path stroke-width="1" stroke-miterlimit="10" stroke="#032a5f"
   fill="none" d="M21.258 41.818a4 4 0 0 0-5.658-5.656L11.362 40.4a4 4 0 0 0 5.655 5.656zm5.653 5.656a4 4 0 0 0-5.653-5.656l-2.827 2.827a4 4 0 0 0 5.655 5.655z"
   data-name="layer1" stroke-linejoin="round" stroke-linecap="round"></path>
-  <path stroke-width="1" stroke-miterlimit="10" stroke="#0e2b5c"
+  <path stroke-width="1" stroke-miterlimit="10" stroke="#032a5f"
   fill="none" d="M32.258 53.436A4 4 0 1 0 26.6 47.78l-1.392 1.393a4 4 0 0 0 5.655 5.657z"
   data-name="layer1" stroke-linejoin="round" stroke-linecap="round"></path>
 </svg>

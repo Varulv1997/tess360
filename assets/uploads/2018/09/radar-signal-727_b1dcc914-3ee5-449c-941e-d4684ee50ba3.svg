@@ -6,10 +6,10 @@ width="256" height="256">
   <path data-name="layer2"
   d="M53.2 53.2A30 30 0 1 1 57.4 16m-14 27.4a16.2 16.2 0 1 1 .4-22.4" fill="none"
   stroke="#8d8ea3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path>
-  <circle data-name="layer1" cx="32" cy="32" r="4" fill="none" stroke="#0e2b5c"
+  <circle data-name="layer1" cx="32" cy="32" r="4" fill="none" stroke="#032a5f"
   stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></circle>
   <circle data-name="layer1" cx="56" cy="32" r="6" fill="none"
-  stroke="#0e2b5c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></circle>
-  <path data-name="layer1" fill="none" stroke="#0e2b5c" stroke-linecap="round"
+  stroke="#032a5f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></circle>
+  <path data-name="layer1" fill="none" stroke="#032a5f" stroke-linecap="round"
   stroke-linejoin="round" stroke-width="1" d="M34.8 34.8l18.4 18.4"></path>
 </svg>
